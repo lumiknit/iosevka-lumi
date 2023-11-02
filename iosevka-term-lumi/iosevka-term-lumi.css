@@ -2,6 +2,42 @@
 @font-face {
 	font-family: 'Iosevka Term Lumi Web';
 	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/iosevka-term-lumi-light.woff2') format('woff2'), url('ttf/iosevka-term-lumi-light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Lumi Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: semi-expanded;
+	font-style: normal;
+	src: url('woff2/iosevka-term-lumi-semiextendedlight.woff2') format('woff2'), url('ttf/iosevka-term-lumi-semiextendedlight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Lumi Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('woff2/iosevka-term-lumi-lightitalic.woff2') format('woff2'), url('ttf/iosevka-term-lumi-lightitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Lumi Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: semi-expanded;
+	font-style: italic;
+	src: url('woff2/iosevka-term-lumi-semiextendedlightitalic.woff2') format('woff2'), url('ttf/iosevka-term-lumi-semiextendedlightitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Lumi Web';
+	font-display: swap;
 	font-weight: 400;
 	font-stretch: normal;
 	font-style: normal;
@@ -33,6 +69,42 @@
 	font-stretch: semi-expanded;
 	font-style: italic;
 	src: url('woff2/iosevka-term-lumi-semiextendeditalic.woff2') format('woff2'), url('ttf/iosevka-term-lumi-semiextendeditalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Lumi Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('woff2/iosevka-term-lumi-medium.woff2') format('woff2'), url('ttf/iosevka-term-lumi-medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Lumi Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: semi-expanded;
+	font-style: normal;
+	src: url('woff2/iosevka-term-lumi-semiextendedmedium.woff2') format('woff2'), url('ttf/iosevka-term-lumi-semiextendedmedium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Lumi Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('woff2/iosevka-term-lumi-mediumitalic.woff2') format('woff2'), url('ttf/iosevka-term-lumi-mediumitalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Iosevka Term Lumi Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: semi-expanded;
+	font-style: italic;
+	src: url('woff2/iosevka-term-lumi-semiextendedmediumitalic.woff2') format('woff2'), url('ttf/iosevka-term-lumi-semiextendedmediumitalic.ttf') format('truetype');
 }
 
 @font-face {
