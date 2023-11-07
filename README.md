@@ -15,10 +15,6 @@ Rename `qp.toml` (or `term.toml`) as `private-build-plans.toml` and follows Iose
 
 ## Preview
 
-### QP
+![Lumi preview](/lumi.png)
 
-![QP preview](/qp_preview.png)
-
-### Term
-
-![Term preview](/term_preview.png)
+![Knit preview](/knit.png)
