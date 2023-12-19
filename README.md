@@ -1,6 +1,6 @@
 # iosevka-lumi
 
-My config for https://github.com/be5invis/Iosevka.
+My config for https://github.com/be5invis/Iosevka 28.0.1.
 
 ## About settings
 
@@ -11,7 +11,12 @@ My config for https://github.com/be5invis/Iosevka.
 
 ## Build
 
-Rename `qp.toml` (or `term.toml`) as `private-build-plans.toml` and follows Iosevka's custom build guide. 
+Rename private build profiles to iosevka 28.0.1 repo, and build.
+
+- `qp-lumi.toml`: Sans-serif Quasi-proportional
+- `term-lumi.toml`: Monospace Quasi-proportional
+- `qp-knit.toml`: Serif Quasi-proportional
+- `term-knit.toml`: Monospace Quasi-proportional
 
 ## Preview
 

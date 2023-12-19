@@ -1,34 +1,21 @@
-[buildPlans.iosevka-qp-lumi]
+[buildPlans.IosevkaQpLumi]
 family = "Iosevka QP Lumi"
 spacing = "quasi-proportional"
 serifs = "sans"
-no-cv-ss = false
-export-glyph-names = false
+noCvSs = true
+exportGlyphNames = false
 
-[buildPlans.iosevka-qp-lumi.variants.design]
-capital-a = "straight-serifless"
+[buildPlans.IosevkaQpLumi.variants.design]
 capital-b = "standard-interrupted-serifless"
-capital-c = "serifless"
-capital-f = "serifless"
-capital-g = "toothed-serifless-hooked"
 capital-i = "short-serifed"
 capital-j = "serifless"
-capital-k = "straight-serifless"
-capital-l = "serifless"
-capital-m = "hanging-serifless"
 capital-n = "asymmetric-serifless"
 capital-p = "open-serifless"
 capital-q = "crossing"
 capital-r = "straight-open-serifless"
-capital-s = "serifless"
 capital-t = "serifless"
-capital-u = "toothless-rounded-serifless"
-capital-v = "straight-serifless"
-capital-w = "straight-serifless"
-capital-x = "straight-serifless"
 capital-z = "straight-serifless"
 a = "double-storey-serifless"
-c = "serifless"
 f = "flat-hook-serifless"
 g = "double-storey-open"
 i = "hooky"
@@ -61,6 +48,8 @@ punctuation-dot = "round"
 asterisk = "penta-low"
 underscore = "above-baseline"
 caret = "low"
+ascii-grave = "straight"
+ascii-single-quote = "straight"
 paren = "large-contour"
 brace = "curly"
 guillemet = "straight"
@@ -68,36 +57,24 @@ number-sign = "upright-open"
 ampersand = "et-toothed"
 at = "fourfold-tall"
 dollar = "interrupted"
-bar = "natural-slope"
-ascii-single-quote = "straight"
-ascii-grave = "straight"
-question = "corner"
 cent = "bar-interrupted"
+question = "corner"
 lig-ltgteq = "flat"
 lig-equal-chain = "with-notch"
 lig-hyphen-chain = "with-notch"
 lig-double-arrow-bar = "with-notch"
 lig-single-arrow-bar = "with-notch"
 
-[buildPlans.iosevka-qp-lumi.variants.italic]
+[buildPlans.IosevkaQpLumi.variants.italic]
 capital-a = "curly-serifless"
 capital-b = "standard-interrupted-serifless"
-capital-d = "standard-serifless"
-capital-e = "serifless"
-capital-f = "serifless"
 capital-g = "toothless-corner-serifless-hooked"
 capital-h = "top-left-bottom-right-serifed"
-capital-i = "short-serifed"
-capital-j = "serifless"
 capital-k = "curly-serifless"
 capital-l = "motion-serifed"
-capital-m = "hanging-serifless"
-capital-n = "asymmetric-serifless"
-capital-p = "open-serifless"
 capital-q = "open-swash"
 capital-r = "standing-open-bottom-right-serifed"
-capital-s = "serifless"
-capital-t = "serifless"
+capital-s = "bilateral-inward-serifed"
 capital-u = "toothless-corner-unilateral-motion-serifed"
 capital-v = "curly-serifless"
 capital-w = "curly-serifless"
@@ -118,6 +95,7 @@ n = "tailed-serifless"
 p = "earless-corner-serifless"
 q = "earless-corner-tailed-serifless"
 r = "compact-serifless"
+s = "bilateral-inward-serifed"
 t = "flat-hook-asymmetric"
 u = "tailed-serifless"
 v = "cursive-serifless"
@@ -150,46 +128,46 @@ at = "fourfold-solid-inner-tall"
 percent = "rings-segmented-slash"
 question = "smooth"
 
-  [buildPlans.iosevka-qp-lumi.ligations]
+  [buildPlans.IosevkaQpLumi.ligations]
   inherits = "dlig"
 
-[buildPlans.iosevka-qp-lumi.weights.light]
+[buildPlans.IosevkaQpLumi.weights.Light]
 shape = 200
 menu = 300
 css = 300
 
-[buildPlans.iosevka-qp-lumi.weights.regular]
+[buildPlans.IosevkaQpLumi.weights.Regular]
 shape = 400
 menu = 400
 css = 400
 
-[buildPlans.iosevka-qp-lumi.weights.medium]
+[buildPlans.IosevkaQpLumi.weights.Medium]
 shape = 600
 menu = 500
 css = 500
 
-[buildPlans.iosevka-qp-lumi.weights.bold]
+[buildPlans.IosevkaQpLumi.weights.Bold]
 shape = 900
 menu = 700
 css = 700
 
-[buildPlans.iosevka-qp-lumi.widths.normal]
+[buildPlans.IosevkaQpLumi.widths.Normal]
 shape = 500
 menu = 5
 css = "normal"
 
-[buildPlans.iosevka-qp-lumi.widths.semiextended]
+[buildPlans.IosevkaQpLumi.widths.SemiExtended]
 shape = 548
 menu = 6
 css = "semi-expanded"
 
-[buildPlans.iosevka-qp-lumi.slopes.upright]
+[buildPlans.IosevkaQpLumi.slopes.Upright]
 angle = 0
 shape = "upright"
 menu = "upright"
 css = "normal"
 
-[buildPlans.iosevka-qp-lumi.slopes.italic]
+[buildPlans.IosevkaQpLumi.slopes.Italic]
 angle = 9.4
 shape = "italic"
 menu = "italic"
