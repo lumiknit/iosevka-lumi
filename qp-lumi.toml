@@ -7,7 +7,7 @@ exportGlyphNames = false
 
 [buildPlans.IosevkaQpLumi.variants.design]
 capital-b = "standard-interrupted-serifless"
-capital-i = "short-serifed"
+capital-i = "serifless"
 capital-j = "serifless"
 capital-n = "asymmetric-serifless"
 capital-p = "open-serifless"
@@ -103,6 +103,7 @@ w = "cursive-serifless"
 x = "cursive"
 y = "cursive-flat-hook-serifless"
 z = "cursive"
+capital-gamma = "top-right-serifed"
 capital-delta = "curly"
 capital-lambda = "curly-serifless"
 lower-lambda = "tailed-turn"
