@@ -157,6 +157,11 @@ shape = 500
 menu = 5
 css = "normal"
 
+[buildPlans.IosevkaTermLumi.widths.Extended]
+shape = 600
+menu = 7
+css = "expanded"
+
 [buildPlans.IosevkaTermLumi.widths.SemiExtended]
 shape = 548
 menu = 6
