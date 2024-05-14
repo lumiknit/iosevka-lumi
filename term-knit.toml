@@ -14,7 +14,7 @@ capital-n = "asymmetric-serifed"
 capital-p = "open-serifed"
 capital-q = "crossing"
 capital-r = "straight-open-serifed"
-a = "double-storey-serifless"
+a = "double-storey-serifed"
 f = "flat-hook-serifed"
 g = "double-storey-open"
 i = "serifed"
@@ -33,9 +33,9 @@ cyrl-ya = "curly-open-serifed"
 zero = "top-right-cutout"
 one = "base"
 two = "straight-neck-serifless"
-three = "flat-top-serifless"
-four = "semi-open-serifless"
-five = "upright-arched-serifless"
+three = "two-arcs"
+four = "semi-open-non-crossing-serifed"
+five = "upright-arched-serifed"
 seven = "straight-serifed"
 eight = "crossing-asymmetric"
 diacritic-dot = "round"
@@ -98,7 +98,7 @@ t = "flat-hook-asymmetric"
 u = "tailed-serifed"
 v = "cursive-serifed"
 w = "cursive-serifed"
-x = "cursive"
+x = "semi-chancery-straight-serifed"
 y = "cursive-flat-hook-serifed"
 z = "cursive"
 capital-delta = "curly"
@@ -116,8 +116,7 @@ cyrl-capital-ya = "standing-open-serifed"
 cyrl-ya = "standing-open-tailed-serifed"
 zero = "oval-top-right-cutout"
 two = "curly-neck-serifless"
-three = "two-arcs"
-five = "upright-flat-serifless"
+five = "upright-flat-serifed"
 six = "open-contour"
 seven = "curly-serifed"
 nine = "open-contour"
@@ -135,9 +134,14 @@ menu = 400
 css = 400
 
 [buildPlans.IosevkaTermKnit.weights.Medium]
-shape = 600
+shape = 500
 menu = 500
 css = 500
+
+[buildPlans.IosevkaTermKnit.weights.SemiBold]
+shape = 700
+menu = 600
+css = 600
 
 [buildPlans.IosevkaTermKnit.weights.Bold]
 shape = 900

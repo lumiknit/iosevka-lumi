@@ -38,10 +38,10 @@ cyrl-ya = "curly-open-serifless"
 zero = "top-right-cutout"
 one = "no-base"
 two = "straight-neck-serifless"
-three = "flat-top-serifless"
-four = "semi-open-serifless"
+three = "two-arcs"
+four = "semi-open-non-crossing-serifless"
 five = "upright-arched-serifless"
-seven = "straight-serifless-crossbar"
+seven = "straight-serifless"
 eight = "crossing-asymmetric"
 diacritic-dot = "round"
 punctuation-dot = "round"
@@ -100,7 +100,7 @@ t = "flat-hook-asymmetric"
 u = "tailed-serifless"
 v = "cursive-serifless"
 w = "cursive-serifless"
-x = "cursive"
+x = "semi-chancery-straight-serifless"
 y = "cursive-flat-hook-serifless"
 z = "cursive"
 capital-gamma = "top-right-serifed"
@@ -122,7 +122,7 @@ two = "curly-neck-serifless"
 three = "two-arcs"
 five = "upright-flat-serifless"
 six = "open-contour"
-seven = "curly-serifless-crossbar"
+seven = "curly-serifless"
 nine = "open-contour"
 ampersand = "et-tailed"
 at = "fourfold-solid-inner-tall"
@@ -132,20 +132,20 @@ question = "smooth"
   [buildPlans.IosevkaQpLumi.ligations]
   inherits = "dlig"
 
-[buildPlans.IosevkaQpLumi.weights.Light]
-shape = 200
-menu = 300
-css = 300
-
 [buildPlans.IosevkaQpLumi.weights.Regular]
 shape = 400
 menu = 400
 css = 400
 
 [buildPlans.IosevkaQpLumi.weights.Medium]
-shape = 600
+shape = 500
 menu = 500
 css = 500
+
+[buildPlans.IosevkaQpLumi.weights.SemiBold]
+shape = 700
+menu = 600
+css = 600
 
 [buildPlans.IosevkaQpLumi.weights.Bold]
 shape = 900
