@@ -1,0 +1,136 @@
+{
+	"buildOptions": {},
+	"familyOrder": ["Gothic", "GothicSlab", "Term", "TermSlab"],
+	"families": {
+		"Gothic": {
+			"isPWID": true,
+			"isTNUM": true,
+			"latinGroup": "IosevkaQPLumi",
+			"naming": {
+				"en_US": "Sarasa Gothic Lumi",
+				"ja_JP": "更紗ゴシック Lumi",
+				"ko_KR": "사라사 고딕 Lumi"
+			}
+		},
+		"GothicSlab": {
+			"isPWID": true,
+			"isTNUM": true,
+			"latinGroup": "IosevkaQPKnit",
+			"naming": {
+				"en_US": "Sarasa Gothic Knit",
+				"ja_JP": "更紗ゴシック Knit",
+				"ko_KR": "사라사 고딕 Knit"
+			}
+		},
+		"Term": {
+			"isMono": true,
+			"isTerm": true,
+			"latinGroup": "IosevkaTermLumi",
+			"naming": {
+				"en_US": "Sarasa Term Lumi",
+				"ja_JP": "Sarasa Term Lumi",
+				"ko_KR": "Sarasa Term Lumi"
+			}
+		},
+		"TermSlab": {
+			"isMono": true,
+			"latinGroup": "IosevkaTermKnit",
+			"isTerm": true,
+			"naming": {
+				"en_US": "Sarasa Term Knit",
+				"ja_JP": "Sarasa Term Knit",
+				"ko_KR": "Sarasa Term Knit"
+			}
+		}
+	},
+	"styleOrder": [
+		"Regular",
+		"Italic",
+		"Bold",
+		"BoldItalic"
+	],
+	"latinGroups": {
+		"Inter": {
+			"isCff": false,
+			"bakeFeatures": [{ "tag": "ss03" }, { "tag": "cv10" }],
+			"dropFeatures": [
+				"cv01",
+				"cv02",
+				"cv03",
+				"cv04",
+				"cv05",
+				"cv06",
+				"cv07",
+				"cv08",
+				"cv09",
+				"cv10",
+				"cv11",
+				"cv12",
+				"cv13",
+				"ss01",
+				"ss02",
+				"ss03",
+				"ss04",
+				"ss05",
+				"ss06",
+				"ss07",
+				"ss08"
+			]
+		}
+	},
+	"styles": {
+		"Regular": {
+			"name": "Regular"
+		},
+		"Italic": {
+			"name": "Italic",
+			"uprightStyleMap": "Regular"
+		},
+		"Bold": {
+			"name": "Bold"
+		},
+		"BoldItalic": {
+			"name": "Bold Italic",
+			"uprightStyleMap": "Bold"
+		}
+	},
+	"subfamilyOrder": ["J", "K"],
+	"os2encodings": {
+		"J": {
+			"gbk": false,
+			"big5": false,
+			"jis": true,
+			"korean": false
+		},
+		"K": {
+			"gbk": false,
+			"big5": false,
+			"jis": false,
+			"korean": true
+		}
+	},
+	"nameTupleSelector": {
+		"J": ["en_US", "ja_JP"],
+		"K": ["en_US", "ko_KR"]
+	},
+	"copyright": "Copyright (c) 2015-2024, Renzhi Li (aka. Belleve Invis, belleve@typeof.net). Portions Copyright (c) 2016-2020 The Inter Project Authors. Portions Copyright (c) 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/). Portions Copyright (c) 2012 Google Inc.",
+	"shsSourceMap": {
+		"defaultRegion": "SourceHanSans",
+		"region": {
+			"J": "SourceHanSans",
+			"K": "SourceHanSansK",
+			"J-HW": "SourceHanSansHW",
+			"K-HW": "SourceHanSansHWK"
+		},
+		"styleMap": {
+			"SemiBold": "Medium",
+			"Bold": "Heavy"
+		},
+		"classicalRegion": "CL",
+		"classicalOverridePrefix": "ShangguSansTC",
+		"classicalOverrideSuffixMap": {
+			"Regular": "Regular-subset",
+			"Bold": "Heavy-subset"
+		}
+	}
+}

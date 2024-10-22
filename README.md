@@ -1,6 +1,6 @@
 # iosevka-lumi
 
-My config for https://github.com/be5invis/Iosevka 30.0.1.
+My config for https://github.com/be5invis/Iosevka 31.9.1
 
 ## About settings
 
@@ -11,12 +11,22 @@ My config for https://github.com/be5invis/Iosevka 30.0.1.
 
 ## Build
 
-Rename private build profiles to iosevka 30.0.1 repo, and build.
+Rename private build profiles to iosevka 31.9.1 repo, and build.
 
 - `qp-lumi.toml`: Sans-serif Quasi-proportional
 - `term-lumi.toml`: Monospace Quasi-proportional
 - `qp-knit.toml`: Serif Quasi-proportional
 - `term-knit.toml`: Monospace Quasi-proportional
+
+### Build with the new script
+
+- Install otc2otf & ttfautohint
+  - otc2otf is provided by Python `afdko` package.
+    - `pip install afdko`
+  - ttfautohint is provided by `ttfautohint` package.
+    - `brew install ttfautohint`
+    - Windows, you may need to download from the official site.
+- Run the script from `00-....js`
 
 ## Preview
 
