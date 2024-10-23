@@ -1,6 +1,28 @@
-# iosevka-lumi
+# lumiknit flavored Iosevka & Sarasa Gothic
 
-My config for https://github.com/be5invis/Iosevka 31.9.1
+Iosevka & Sarasa Gothic 기반 프로그래밍을 위한 (CJK 도 지원하는) monospace & quasi-proportional 폰트.
+
+My custom builds of
+
+- https://github.com/be5invis/Iosevka 31.9.1
+- https://github.com/be5invis/Sarasa-Gothic 1.0.22
+
+## Preview
+
+### Iosevka / Sarasa Lumi (Sans-Serif)
+
+![Lumi preview](/lumi.png)
+
+### Iosevka / Sarasa Knit (Slab Serifed)
+
+![Knit preview](/knit.png)
+
+## Download
+
+See Releases.
+
+## About the Font Configuration
+
 
 ## About settings
 
@@ -27,9 +49,3 @@ Rename private build profiles to iosevka 31.9.1 repo, and build.
     - `brew install ttfautohint`
     - Windows, you may need to download from the official site.
 - Run the script from `00-....js`
-
-## Preview
-
-![Lumi preview](/lumi.png)
-
-![Knit preview](/knit.png)
