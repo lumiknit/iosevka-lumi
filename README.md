@@ -11,11 +11,11 @@ My custom builds of
 
 ### Iosevka / Sarasa Lumi (Sans-Serif)
 
-![Lumi preview](/lumi.png)
+![Lumi preview](/lumi.jpg)
 
 ### Iosevka / Sarasa Knit (Slab Serifed)
 
-![Knit preview](/knit.png)
+![Knit preview](/knit.jpg)
 
 ## Download
 
