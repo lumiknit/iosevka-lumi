@@ -56,7 +56,18 @@ While I used various programming fonts, I always long for some fonts with the be
   - Programs like VSCode support *fallback fonts*, but this is not a universal solution. I often encounter broken characters or unattractive OS fallback fonts.
   - Also, it's better when the CJK characters' width are exactly double of all other characters. (For terminal.)
 
-I originally used **PragmataPro** with some fallback CJK fonts.
+Previously, I used following fonts.
+
+- **[PragmataPro](https://fsd.it/shop/fonts/pragmatapro/)** with some fallback CJK
+  - Maybe the best option, but was not perfect with Windows font rendering.
+- Some fonts supporting Koreans, such as
+  **[NanumGothicCoding](https://github.com/naver/nanumfont),
+  [D2Coding](https://github.com/naver/d2codingfont),
+  [Semteulche](https://eastriverlee.itch.io/semteulche),
+  or [Hesalche](https://eastriverlee.itch.io/hesalche)**
+  - As they are created for support both monospace & Koreans, they look very consistant.
+  - But the faces were not my cup of tea, or does not support ligatures, no Japanese, etc..
+
 However, thanks to the incredible work of [be5invis](https://github.com/be5invis),
 I realized I can build my custom fonts with **Iosevka**. Also, **Sarasa Gothic** enables me to inject CJK faces into them.
 
