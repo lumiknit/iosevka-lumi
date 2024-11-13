@@ -23,7 +23,7 @@ You can download all font files in [the latest release](https://github.com/lumik
   | **Monospace** | Iosevka Term ... | Sarasa Term ... |
   | **Proportional** | Iosevka QP ... | Sarasa Gothic ... |
 - For Sarasa, 'K' means Korean Hanja, 'J' means Japanese Kanji.
-- `Lumi` for sans-serif, `Knit` for slab-serifed
+- `Lumi` for sans-serif (SourceHanSans for CJK), `Knit` for slab-serifed (SourceHanSerif for CJK)
 - Iosevka fonts includes `Semi-extended` and `Extended` fonts.
 
 ---
@@ -91,3 +91,5 @@ The latest version was built with:
 
 The Iosevka builds takes about 30min, and Saras Gothic build takes about 9 Hours with Apple M1.
 (The most time consuming job is auto-hinting.)
+
+For serifed CJK, replace SourceHanSans fonts in `Sarasa-Gothic` directory to SourceHanSerif
