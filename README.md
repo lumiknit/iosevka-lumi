@@ -77,8 +77,8 @@ I would like to express my gratitude once again for be5invis's works..!
 
 The latest version was built with:
 
-- https://github.com/be5invis/Iosevka 31.9.1
-- https://github.com/be5invis/Sarasa-Gothic 1.0.22
+- https://github.com/be5invis/Iosevka 33.2.1
+- https://github.com/be5invis/Sarasa-Gothic 1.0.30
 
 ### Build with Scripts
 
