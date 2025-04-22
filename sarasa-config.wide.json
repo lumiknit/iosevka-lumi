@@ -1,0 +1,97 @@
+{
+	"buildOptions": {},
+	"familyOrder": ["Gothic"],
+	"families": {
+		"Gothic": {
+			"isPWID": true,
+			"isTNUM": true,
+			"latinGroup": "IosevkaQPLumiExt",
+			"naming": {
+				"en_US": "Sarasa Gothic LumiExt",
+				"ja_JP": "更紗ゴシック LumiExt",
+				"ko_KR": "사라사 고딕 LumiExt"
+			}
+		}
+	},
+	"styleOrder": [
+		"Regular",
+		"Italic",
+		"Bold",
+		"BoldItalic"
+	],
+	"latinGroups": {
+		"Inter": {
+			"isCff": false,
+			"bakeFeatures": [{ "tag": "ss03" }, { "tag": "cv10" }],
+			"dropFeatures": [
+				"cv01",
+				"cv02",
+				"cv03",
+				"cv04",
+				"cv05",
+				"cv06",
+				"cv07",
+				"cv08",
+				"cv09",
+				"cv10",
+				"cv11",
+				"cv12",
+				"cv13",
+				"ss01",
+				"ss02",
+				"ss03",
+				"ss04",
+				"ss05",
+				"ss06",
+				"ss07",
+				"ss08"
+			]
+		}
+	},
+	"styles": {
+		"Regular": {
+			"name": "Regular"
+		},
+		"Italic": {
+			"name": "Italic",
+			"uprightStyleMap": "Regular"
+		},
+		"Bold": {
+			"name": "Bold"
+		},
+		"BoldItalic": {
+			"name": "Bold Italic",
+			"uprightStyleMap": "Bold"
+		}
+	},
+	"subfamilyOrder": ["J"],
+	"os2encodings": {
+		"J": {
+			"gbk": false,
+			"big5": false,
+			"jis": true,
+			"korean": false
+		}
+	},
+	"nameTupleSelector": {
+		"J": ["en_US", "ja_JP"]
+	},
+	"copyright": "Copyright (c) 2015-2024, Renzhi Li (aka. Belleve Invis, belleve@typeof.net). Portions Copyright (c) 2016-2020 The Inter Project Authors. Portions Copyright (c) 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/). Portions Copyright (c) 2012 Google Inc.",
+	"shsSourceMap": {
+		"defaultRegion": "SourceHanSans",
+		"region": {
+			"J": "SourceHanSans",
+			"J-HW": "SourceHanSansHW"
+		},
+		"styleMap": {
+			"SemiBold": "Medium",
+			"Bold": "Heavy"
+		},
+		"classicalRegion": "CL",
+		"classicalOverridePrefix": "ShangguSansTC",
+		"classicalOverrideSuffixMap": {
+			"Regular": "Regular-subset",
+			"Bold": "Heavy-subset"
+		}
+	}
+}
