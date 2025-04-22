@@ -24,6 +24,7 @@ You can download all font files in [the latest release](https://github.com/lumik
   | **Proportional** | Iosevka QP ... | Sarasa Gothic ... |
 - For Sarasa, 'K' means Korean Hanja, 'J' means Japanese Kanji.
 - `Lumi` for sans-serif (SourceHanSans for CJK), `Knit` for slab-serifed (SourceHanSerif for CJK)
+  - For Sarasa Gothic, `LumiExt` is a sans serif with semi-extended iosevka.
 - Iosevka fonts includes `Semi-extended` and `Extended` fonts.
 
 ---
