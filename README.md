@@ -22,9 +22,10 @@ You can download all font files in [the latest release](https://github.com/lumik
   | :-: | :-: | :-: |
   | **Monospace** | Iosevka Term ... | Sarasa Term ... |
   | **Proportional** | Iosevka QP ... | Sarasa Gothic ... |
-- For Sarasa, 'K' means Korean Hanja, 'J' means Japanese Kanji.
+- Sarasa `X` means the font contains CJK characters, based on Japanese Kanji.
+  - For old Sarasa, `K` means Korean Hanja, `J` means Japanese Kanji.
 - `Lumi` for sans-serif (SourceHanSans for CJK), `Knit` for slab-serifed (SourceHanSerif for CJK)
-  - For Sarasa Gothic, `LumiExt` is a sans serif with semi-extended iosevka.
+  - For Sarasa Gothic, `LumiExt` / `KnitExt` is semi-extended quasi-proportional fonts.
 - Iosevka fonts includes `Semi-extended` and `Extended` fonts.
 
 ---
@@ -37,7 +38,7 @@ While I used various programming fonts, I always long for some fonts with the be
   - Most good fonts (such as JetBrains Mono) have weights from 100 to 900, and 400 and 700 are used for regular and bold respectively. However, sometimes the bold face looks slightly thin and does not contrast well with regular faces.
   - Some fonts, such as PragmataPro, have a much bolder *bold* weight (maybe it uses 900 heavy for bold).
   - Like PragmataPro, I prefer fonts that use 900 for bold and 700 for medium.
-  
+
 - Upright fonts should use straight strokes, while italic fonts should use curves resembling cursive fonts.
 
 - Ligatures.
@@ -83,14 +84,14 @@ The latest version was built with:
 
 ### Build with Scripts
 
-- Before starting the build tasks, you should install all requirements for `Iosevka` and `Sarasa Gothic`
-  - `nodejs`, `npm`, `afdko` with Python (for otc2otf, ...), and `ttfautohint`
-- Run scripts from `00-...ps1` to `02-...ps1` at the repository root.
-- If you want to some configuration,
-  - `/*.toml` are for Iosevka build
-  - `/sarasa-config.temp.json` is for Sarasa Gothic build.
+- You should install dependencies:
+  - `nodejs` and `npm`
+  - Python and `afdko` for `otc2otf`
+  - Clone `Iosevka` and `Sarasa-Gothic` repositories in this repository root.
+    - This can be done by running `00-clone.js`
+  - `SourceHanSerif` to build serifed CJK fonts.
+    - This should be copied in the `Sarasa-Gothic/sources/shs` directory.
+- Run scripts from `01-...js` to `02-...js` at the repository root.
 
-The Iosevka builds takes about 30min, and Saras Gothic build takes about 9 Hours with Apple M1.
+The Iosevka builds takes about 30min, and Saras Gothic build takes about 21 Hours with Apple M1.
 (The most time consuming job is auto-hinting.)
-
-For serifed CJK, replace SourceHanSans fonts in `Sarasa-Gothic` directory to SourceHanSerif
