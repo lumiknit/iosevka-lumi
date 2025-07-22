@@ -41,8 +41,8 @@ for (const p of ["Lumi", "Knit"]) {
 
 	const srcDir = path.join(iosevkaLumiDir, `IosevkaQp${p}`, "TTF");
 	for (const [src, dst] of weightMap) {
-		const srcFile = path.join(srcDir, `IosevkaQpLumi-${src}.ttf`);
-		const dstFile = path.join(extDir, `IosevkaQpLumiExt-${dst}.ttf`);
+		const srcFile = path.join(srcDir, `IosevkaQp${p}-${src}.ttf`);
+		const dstFile = path.join(extDir, `IosevkaQp${p}Ext-${dst}.ttf`);
 		if (fs.existsSync(dstFile)) {
 			console.log(`${dstFile} already exists. Skipping...`);
 			continue;
