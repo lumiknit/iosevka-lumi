@@ -22,6 +22,7 @@ You can download all font files in [the latest release](https://github.com/lumik
   | :-: | :-: | :-: |
   | **Monospace** | Iosevka Term ... | Sarasa Term ... |
   | **Proportional** | Iosevka QP ... | Sarasa Gothic ... |
+
 - Sarasa `X` means the font contains CJK characters, based on Japanese Kanji.
   - For old Sarasa, `K` means Korean Hanja, `J` means Japanese Kanji.
 - `Lumi` for sans-serif (SourceHanSans for CJK), `Knit` for slab-serifed (SourceHanSerif for CJK)
@@ -79,19 +80,19 @@ I would like to express my gratitude once again for be5invis's works..!
 
 The latest version was built with:
 
-- https://github.com/be5invis/Iosevka 33.2.1
-- https://github.com/be5invis/Sarasa-Gothic 1.0.30
+- <https://github.com/be5invis/Iosevka> 34.1.0
+- <https://github.com/be5invis/Sarasa-Gothic> 1.0.36
 
 ### Build with Scripts
 
 - You should install dependencies:
-  - `nodejs` and `npm`
+  - `bun`
   - Python and `afdko` for `otc2otf`
   - Clone `Iosevka` and `Sarasa-Gothic` repositories in this repository root.
-    - This can be done by running `00-clone.js`
+    - This can be done by running `00-clone.ts`
   - `SourceHanSerif` to build serifed CJK fonts.
     - This should be copied in the `Sarasa-Gothic/sources/shs` directory.
-- Run scripts from `01-...js` to `02-...js` at the repository root.
+- Run scripts from `01-...ts` to `02-...ts` at the repository root.
 
 The Iosevka builds takes about 30min, and Saras Gothic build takes about 21 Hours with Apple M1.
 (The most time consuming job is auto-hinting.)
