@@ -1,10 +1,11 @@
-#!/usr/bin/env bun
+#!/usr/bin/env -S deno run --allow-read --allow-write --allow-run --allow-env
 
 import { execSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
+import process from "node:process";
 
-const pascalToCamel = (str: string): string => {
+const kebabToPascal = (str: string): string => {
   const t: string[] = [];
   for (const s of str.split("-")) {
     if (s.length < 1) continue;
@@ -27,7 +28,7 @@ for (const t of targets) {
   );
 
   // Build target
-  const script = `bun run build -- contents::Iosevka${pascalToCamel(t)}`;
+  const script = `deno task build contents::Iosevka${kebabToPascal(t)}`;
   console.log(`RUN: ${script}`);
   execSync(script, {
     cwd: subDir,

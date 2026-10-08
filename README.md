@@ -68,7 +68,7 @@ Previously, I used following fonts.
   [D2Coding](https://github.com/naver/d2codingfont),
   [Semteulche](https://eastriverlee.itch.io/semteulche),
   or [Hesalche](https://eastriverlee.itch.io/hesalche)**
-  - As they are created for support both monospace & Koreans, they look very consistant.
+  - As they are created for support both monospace & Koreans, they look very consistent.
   - But the faces were not my cup of tea, or does not support ligatures, no Japanese, etc..
 
 However, thanks to the incredible work of [be5invis](https://github.com/be5invis),
@@ -86,13 +86,15 @@ The latest version was built with:
 ### Build with Scripts
 
 - You should install dependencies:
-  - `bun`
+  - `deno`
   - Python and `afdko` for `otc2otf`
   - Clone `Iosevka` and `Sarasa-Gothic` repositories in this repository root.
-    - This can be done by running `00-clone.ts`
+    - This can be done by running `deno task clone` (`00-clone.ts`)
   - `SourceHanSerif` to build serifed CJK fonts.
     - This should be copied in the `Sarasa-Gothic/sources/shs` directory.
-- Run scripts from `01-...ts` to `02-...ts` at the repository root.
+- Run the scripts in order at the repository root:
+  1. `deno task build:iosevka` (`01-build-iosevka.ts`)
+  2. `deno task build:sarasa` (`02-build-sarasa.ts`)
 
-The Iosevka builds takes about 30min, and Saras Gothic build takes about 21 Hours with Apple M1.
+The Iosevka builds takes about 30min, and Sarasa Gothic build takes about 21 Hours with Apple M1.
 (The most time consuming job is auto-hinting.)

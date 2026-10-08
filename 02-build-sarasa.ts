@@ -1,7 +1,8 @@
-#!/usr/bin/env bun
+#!/usr/bin/env -S deno run --allow-read --allow-write --allow-run --allow-env
 
 import { execSync } from "node:child_process";
 import path from "node:path";
+import process from "node:process";
 import fs from "node:fs";
 
 // First, copy built iosevka-lumi's TTF to /Sarasa-Gothic/sources/
@@ -23,7 +24,7 @@ for (const d of fs.readdirSync(iosevkaLumiDir)) {
   fs.cpSync(src, dst, { recursive: true });
 }
 
-// Also, copy semi-extended foonts for LumiExt and KnitExt
+// Also, copy semi-extended fonts for LumiExt and KnitExt
 const weightMap: ReadonlyArray<[string, string]> = [
   ["SemiExtended", "Regular"],
   ["SemiExtendedBold", "Bold"],
@@ -70,7 +71,7 @@ for (const configName of ["sans", "serif"]) {
   );
   fs.copyFileSync(tmpConfigPath, configJson);
 
-  const script = `bun run build ttf`;
+  const script = `deno task build ttf`;
   console.log(`RUN: ${script}`);
   execSync(script, {
     cwd: sarasaGothicDir,

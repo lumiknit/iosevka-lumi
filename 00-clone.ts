@@ -1,4 +1,4 @@
-#!/usr/bin/env bun
+#!/usr/bin/env -S deno run --allow-read --allow-write --allow-run --allow-env
 
 // Clone the below two repositories
 // - https://github.com/be5invis/Iosevka
@@ -8,6 +8,7 @@
 import { execSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
+import process from "node:process";
 
 const repos = [
   "https://github.com/be5invis/Iosevka",
@@ -20,7 +21,7 @@ repos.forEach((repo) => {
     throw new Error(`Invalid repository URL: ${repo}`);
   }
 
-  // Check the direcotry exists or not
+  // Check the directory exists or not
   // Only clone if the directory does not exist
 
   if (!fs.existsSync(dir)) {
@@ -30,11 +31,11 @@ repos.forEach((repo) => {
     });
   }
 
-  // Move to the directory and run bun install
+  // Move to the directory and run deno install
   const subDir = path.join(process.cwd(), dir);
 
-  console.log(`Running bun install in ${subDir}`);
-  execSync(`bun install`, {
+  console.log(`Running deno install in ${subDir}`);
+  execSync(`deno install`, {
     cwd: subDir,
     stdio: "inherit",
   });
