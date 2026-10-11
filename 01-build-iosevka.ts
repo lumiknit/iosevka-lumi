@@ -1,5 +1,3 @@
-#!/usr/bin/env -S deno run --allow-read --allow-write --allow-run --allow-env
-
 import { execSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
@@ -28,7 +26,7 @@ for (const t of targets) {
   );
 
   // Build target
-  const script = `deno task build contents::Iosevka${kebabToPascal(t)}`;
+  const script = `npm run build -- contents::Iosevka${kebabToPascal(t)}`;
   console.log(`RUN: ${script}`);
   execSync(script, {
     cwd: subDir,

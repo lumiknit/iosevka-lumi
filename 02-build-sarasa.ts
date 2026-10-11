@@ -1,5 +1,3 @@
-#!/usr/bin/env -S deno run --allow-read --allow-write --allow-run --allow-env
-
 import { execSync } from "node:child_process";
 import path from "node:path";
 import process from "node:process";
@@ -71,7 +69,7 @@ for (const configName of ["sans", "serif"]) {
   );
   fs.copyFileSync(tmpConfigPath, configJson);
 
-  const script = `deno task build ttf`;
+  const script = "npm run build -- ttf";
   console.log(`RUN: ${script}`);
   execSync(script, {
     cwd: sarasaGothicDir,

@@ -86,15 +86,15 @@ The latest version was built with:
 ### Build with Scripts
 
 - You should install dependencies:
-  - `deno`
+  - Node.js 24 and npm
   - Python and `afdko` for `otc2otf`
   - Clone `Iosevka` and `Sarasa-Gothic` repositories in this repository root.
-    - This can be done by running `deno task clone` (`00-clone.ts`)
+    - This can be done by running `npm run clone` (`00-clone.ts`)
   - `SourceHanSerif` to build serifed CJK fonts.
     - This should be copied in the `Sarasa-Gothic/sources/shs` directory.
 - Run the scripts in order at the repository root:
-  1. `deno task build:iosevka` (`01-build-iosevka.ts`)
-  2. `deno task build:sarasa` (`02-build-sarasa.ts`)
+  1. `npm run build:iosevka` (`01-build-iosevka.ts`)
+  2. `npm run build:sarasa` (`02-build-sarasa.ts`)
 
 The Iosevka builds takes about 30min, and Sarasa Gothic build takes about 21 Hours with Apple M1.
 (The most time consuming job is auto-hinting.)

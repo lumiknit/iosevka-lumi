@@ -1,7 +1,0 @@
-{
-  "tasks": {
-    "clone": "deno run --allow-read --allow-write --allow-run --allow-env 00-clone.ts",
-    "build:iosevka": "deno run --allow-read --allow-write --allow-run --allow-env 01-build-iosevka.ts",
-    "build:sarasa": "deno run --allow-read --allow-write --allow-run --allow-env 02-build-sarasa.ts"
-  }
-}

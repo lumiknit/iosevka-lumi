@@ -1,5 +1,3 @@
-#!/usr/bin/env -S deno run --allow-read --allow-write --allow-run --allow-env
-
 // Clone the below two repositories
 // - https://github.com/be5invis/Iosevka
 // - https://github.com/be5invis/Sarasa-Gothic
@@ -31,11 +29,11 @@ repos.forEach((repo) => {
     });
   }
 
-  // Move to the directory and run deno install
+  // Move to the directory and install dependencies
   const subDir = path.join(process.cwd(), dir);
 
-  console.log(`Running deno install in ${subDir}`);
-  execSync(`deno install`, {
+  console.log(`Running npm install in ${subDir}`);
+  execSync("npm install", {
     cwd: subDir,
     stdio: "inherit",
   });
